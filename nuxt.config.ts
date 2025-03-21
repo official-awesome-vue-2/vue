@@ -82,7 +82,7 @@ export default defineNuxtConfig({
   typescript: {
     tsConfig: {
       compilerOptions: {
-        baseUrl: '.',
+        baseUrl: '/vue/',
       },
     },
   },
