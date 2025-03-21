@@ -1,12 +1,21 @@
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { globSync } from "glob"
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 
-export default defineNuxtConfig({
+const routes = globSync('./content/**/*.md')
+  .map(path => path.slice(7, -3).replace(/\d+\./g, '').replace(/\\/g, '/'))
+  routes.splice(0, 1);
+  export default defineNuxtConfig({
   app: {
     baseURL: '/vue/',
     buildAssetsDir: 'assets',
+  },
+  nitro: {
+    prerender: {
+      routes: [...routes]
+    }
   },
   devtools: { enabled: true },
   modules: [
