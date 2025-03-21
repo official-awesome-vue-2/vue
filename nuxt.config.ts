@@ -4,6 +4,10 @@ import { fileURLToPath } from 'node:url';
 const currentDir = dirname(fileURLToPath(import.meta.url));
 
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/vue/',
+    buildAssetsDir: 'assets',
+  },
   devtools: { enabled: true },
   modules: [
     '@nuxtjs/tailwindcss',
