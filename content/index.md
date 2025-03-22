@@ -14,7 +14,7 @@ actions:
     to: /components-and-libraries
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/official-awesome-vue-2/vue
     leftIcon: 'lucide:github'
 ---
 

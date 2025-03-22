@@ -8,9 +8,9 @@
   "homepage": "https://shadcn-docs-nuxt.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZTL-UwU/shadcn-docs-nuxt.git"
+    "url": "git+https://github.com/official-awesome-vue-2/vue.git"
   },
-  "bugs": "https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues",
+  "bugs": "https://github.com/official-awesome-vue-2/vue/issues",
   "keywords": [
     "markdown",
     "docs",

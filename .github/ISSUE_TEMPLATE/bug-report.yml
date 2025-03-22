@@ -11,7 +11,7 @@ body:
         or are unsure if this is really a bug, make sure to:
 
         - Read the [docs](https://shadcn-docs-nuxt.vercel.app/)
-        - Ask on [GitHub Discussions](https://github.com/ZTL-UwU/shadcn-docs-nuxt/discussions)
+        - Ask on [GitHub Discussions](https://github.com/official-awesome-vue-2/vue/discussions)
   - type: textarea
     id: bug-env
     attributes:

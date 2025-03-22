@@ -14,7 +14,7 @@ Beautifully designed _Nuxt Content_ template built with _shadcn-vue_. **Customiz
 
 ## Quick Start
 
-1. Create a project with the [starter template](https://github.com/ZTL-UwU/shadcn-docs-nuxt-starter)
+1. Create a project with the [starter template](https://github.com/official-awesome-vue-2/vue-starter)
 
   ```bash
   npx nuxi@latest init -t github:ZTL-UwU/shadcn-docs-nuxt-starter
@@ -55,11 +55,11 @@ Beautifully designed _Nuxt Content_ template built with _shadcn-vue_. **Customiz
 - [nuxt-umami](https://github.com/ijkml/nuxt-umami)
 - [Msty](https://docs.msty.app/getting-started/onboarding)
 - [Archiver](https://github.com/Ast3risk-ops/archiver)
-- [Add your project 🚀](https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/README.md)
+- [Add your project 🚀](https://github.com/official-awesome-vue-2/vue/edit/main/README.md)
 
 ## License
 
-[MIT](https://github.com/ZTL-UwU/shadcn-docs-nuxt/blob/main/LICENSE)
+[MIT](https://github.com/official-awesome-vue-2/vue/blob/main/LICENSE)
 
 ---
 
@@ -70,7 +70,7 @@ Beautifully designed _Nuxt Content_ template built with _shadcn-vue_. **Customiz
 [npm-downloads-src]: https://img.shields.io/npm/dm/shadcn-docs-nuxt?style=flat&colorA=18181b&colorB=18181b
 [npm-downloads-href]: https://npm.chart.dev/shadcn-docs-nuxt?primary=neutral&gray=zinc&theme=light
 [license-src]: https://img.shields.io/github/license/ZTL-UwU/shadcn-docs-nuxt.svg?style=flat&colorA=18181b&colorB=18181b
-[license-href]: https://github.com/ZTL-UwU/shadcn-docs-nuxt/blob/main/LICENSE
+[license-href]: https://github.com/official-awesome-vue-2/vue/blob/main/LICENSE
 [nuxt-src]: https://img.shields.io/badge/Built%20With%20Nuxt-18181B?logo=nuxt
 [nuxt-href]: https://nuxt.com/
 [sponsor-src]: https://img.shields.io/badge/sponsor%20me-18181B?logo=kofi

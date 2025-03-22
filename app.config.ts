@@ -21,7 +21,7 @@ export default defineAppConfig({
       enable: false,
       showClose: true,
       content: 'Welcome to **Awesome Vue 2**',
-      to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+      to: 'https://github.com/official-awesome-vue-2/vue',
       target: '_blank',
       border: true,
     },
@@ -78,7 +78,7 @@ export default defineAppConfig({
       },  ],
       links: [{
         icon: 'lucide:github',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/official-awesome-vue-2/vue',
         target: '_blank',
       }],
     },
@@ -95,7 +95,7 @@ export default defineAppConfig({
       codeCopyIcon: 'lucide:copy',
       editLink: {
         enable: true,
-        pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/content/:path',
+        pattern: 'https://github.com/official-awesome-vue-2/vue/edit/main/content/:path',
         text: 'Edit this page',
         icon: 'lucide:square-pen',
         placement: ['docsFooter', 'toc'],
@@ -151,7 +151,7 @@ export default defineAppConfig({
       links: [
       //   {
       //   icon: 'lucide:github',
-      //   to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+      //   to: 'https://github.com/official-awesome-vue-2/vue',
       //   target: '_blank',
       // }
     ],
@@ -164,7 +164,7 @@ export default defineAppConfig({
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/official-awesome-vue-2/vue',
         target: '_blank',
         showLinkIcon: true,
       },  ],
