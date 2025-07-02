@@ -35,7 +35,14 @@ useSeoMeta({
   ogDescription: config.value.site.description,
   twitterCard: 'summary_large_image',
 });
-
+useHead({
+  meta: [
+    {
+      name: 'google-site-verification',
+      content: '9k5LSLSl2rkjs8I4ZRV_VutiRyj-hXIzW36TZ2fDT80'
+    }
+  ]
+})
 useServerHead({
   bodyAttrs: {
     class: themeClass.value,
