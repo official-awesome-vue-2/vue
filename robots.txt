@@ -1,0 +1,45 @@
+# Все поисковые роботы
+User-agent: *
+Disallow: /examples/
+Disallow: /test/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /auth/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /register/
+
+# Запрет на индексацию ненужных файлов
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.map$
+Disallow: /*.zip$
+Disallow: /*.tar.gz$
+Disallow: /*.bak$
+Disallow: /*.inc$
+
+# Предотвращение дублирования контента через параметры URL
+Disallow: /*?*
+
+# Карта сайта
+Sitemap: https://awesome-vue.js.org/sitemap.xml 
+
+# Настройки для Googlebot
+User-agent: Googlebot
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Crawl-Delay: 2
+
+# Дополнительные разрешения для медиа-файлов и статики
+Allow: /static/
+Allow: /assets/
+
+# Настройки для Bingbot
+User-agent: bingbot
+Crawl-Delay: 2
+Request-rate: 1/2s
